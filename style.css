@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border box;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+  width: 80%;
+  padding: 0px 10%;
+  background: black;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Cobin', sans-serif;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: flex-end; 
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 6px;
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Oswald:wght@500&family=Outfit:wght@700;800&display=swap');
+  font-weight: 900;
+  display: flex;
+  margin-right: -50px;
+  margin-left: 80px;
+}
+
+.header .navbar a:hover {
+  color: rgb(43, 118, 224); 
+}
+
+.flogo{
+  height: 117px;
+  width: 195px;
+  margin-left: -80px;
+}
+
+.facts{
+  height: 117px;
+  width: 195px;
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+
+body {
+  background-image: url('../bsit2A_group_6/images/Blue\ and\ Green\ Organic\ Group\ Project\ Presentation.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+}
+
+.tx{
+  margin: 100px 100px 100px 100px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.tx2{
+  font-family: 'Lucida Sans', 'Helvetica, Arial', sans-serif;
+  font-size: 80px;
+  transition: color 0.3s; 
+  -webkit-text-stroke: 2px black;
+}
+
+.tx2:hover {
+  color: rgb(43, 118, 224); 
+}
+
+.tupic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictu{
+  width: 500px;
+  height: 500px;
+  margin-top: -90px;
+  margin-bottom: 90px;
+  border-radius: 100px;
+  border: 3px solid black;
+  box-shadow: 8px 8px;
+  filter:grayscale(100%)
+}
+
+.pictu:hover {
+  filter: grayscale(0%);
+  transition: 1s ease; 
+}
+
+.tx3{
+  margin: 100px 100px 100px 100px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.tx4{
+  color: black;
+  font-family: 'Lucida Sans', 'Helvetica, Arial', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  transition: color 0.3s; 
+  margin-top: -50px;
+  margin-bottom: 50px;
+  -webkit-text-stroke: 1px black;
+}
+
+.tx4:hover {
+  color: rgb(89, 89, 239); 
+}
